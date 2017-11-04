@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<generic>
+		<output>
+			<binary_mode>false</binary_mode>
+			<line_separator>\n</line_separator>
+			<var_separator>\n</var_separator>
+			<preamble></preamble>
+			<postamble></postamble>
+			
+			<chunk>
+				<name>acceleration X-axis (feet/sec^2)</name>
+				<type>string</type>
+				<format>X=%s</format>
+				<node>/accelerations/pilot/x-accel-fps_sec</node>
+			</chunk>
+			<chunk>
+				<name>acceleration Y-axis (feet/sec^2)</name>
+				<type>string</type>
+				<format>Y=%s</format>
+				<node>/accelerations/pilot/y-accel-fps_sec</node>
+			</chunk>
+			<chunk>
+				<name>acceleration Z-axis (feet/sec^2)</name>
+				<type>string</type>
+				<format>Z=%s</format>
+				<node>/accelerations/pilot/z-accel-fps_sec</node>
+			</chunk>
+			<chunk>
+				<name>magnetic compass (deg)</name>
+				<type>string</type>
+				<format>Compass=%s</format>
+				<node>/instrumentation/magnetic-compass/indicated-heading-deg</node>
+			</chunk>
+		</output>
+	</generic>
+</PropertyList>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">FlightGear Analog Serial</string>
+    <string name="rudder">Plane\'s Rudder Control</string>
+    <string name="throttle">Plane\'s Throttle Control</string>
+</resources>

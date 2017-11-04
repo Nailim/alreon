@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anemoi</string>
+    
+    <string name="hello">Hello World, Flight!</string>
+    
+    <string name="copilot_service">Anemoi copilot</string>
+    <string name="copilot_service_started">Copilot service started</string>
+    
+    <string name="autopilot_service">Anemoi autopilot</string>
+    <string name="autopilot_service_started">Autopilot service started</string>
+</resources>

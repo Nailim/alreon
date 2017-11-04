@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="@string/rudder"
+    />
+<SeekBar
+	android:id="@+id/sbRudder"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:max="100"
+	android:progress="50" android:padding="5sp"/>
+<Button
+	android:id="@+id/btnRudderReset"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Center Rudder Controll"
+    />
+<ToggleButton
+	android:id="@+id/tbtnConnection"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textOff="Analog Serial Transmission Off" android:textOn="Analog Serial Transmission On" android:layout_margin="30sp"/>
+<TextView  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="@string/throttle"
+    />
+<SeekBar
+	android:id="@+id/sbThrottle"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:max="100"
+	android:progress="0"
+    android:padding="5sp"/> 
+
+</LinearLayout>

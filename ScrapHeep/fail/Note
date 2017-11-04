@@ -1,0 +1,4 @@
+Ok, ok, I can understand c being c, but I spent half a friggin hour trying to converter a bloddy string to an array of characters (whis a string basically is), so that the system() command would blurghle at me ><
+
+All files done, trust you can run a bash script, converting all to appropriate mp3's
+(these should be 16-bit, 48khz sample rate .wav's)

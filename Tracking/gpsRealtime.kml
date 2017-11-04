@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<kml xmlns="http://earth.google.com/kml/2.0">
+		<Placemark>
+			<name>1.8 km/h - Anemoi</name>
+			<description></description>
+			<LookAt>
+				<longitude>15.446830987930298</longitude>
+				<latitude>45.998495221138</latitude>
+				<range>200</range>
+				<tilt>30</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>15.446830987930298,45.998495221138,301.0</coordinates>
+			</LineString>
+			<Point>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>15.446830987930298,45.998495221138,301.0</coordinates>
+			</Point>
+		</Placemark>
+	</kml>
